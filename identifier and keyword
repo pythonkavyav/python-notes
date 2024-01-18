@@ -1,0 +1,111 @@
+Identifier:- 
+
+identifier is used to identify variable name/class name/function/object etc. 
+
+Rules:- 
+
+1.it can contain alphabets/digits/one special symbol ( _ ) 
+
+2.it should not start with digits 
+
+3.case sensitive 
+
+4.space is not allowed 
+
+5.keywords are not allowed 
+
+6.no length limit 
+
+ 
+
+A=10 
+
+10 is object 
+
+A is reference 
+
+A='hello' 
+
+ 
+
+.py 
+
+ 
+
+Assign value to variable 
+
+ 
+
+To assign value to variable no need to mention the data type. 
+
+2.to assign a char /string quotes are required  
+
+We can use ' ' /" " / """    """ 
+
+3.if we declare variable before assign value show an error 
+
+ 
+
+Namespace:- 
+
+Namespace is a collection of d/f object associated with unique name whose lifespan depends on scope of variable 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Buit in function:- 
+
+print()--->it is used to the content 
+
+type()--->gives the corresponding data type of an object 
+
+id()---> gives memory location of a variable 
+
+dir()--->directory display the current names  
+
+ 
+
+Note:- 
+
+Variable start with two leading underscore and ending with two leading underscore it is magical word/system defined 
+
+ 
+
+Keywords: 
+
+ 
+
+Keywords are the reserves words which is having special meaning 
+
+ 
+
+To display on the screen we use help function 
+
+>>>help('keywords') 
+
+ 
+
+Input and Output:- 
+
+Print----> 
+
+Print is used to display the content  
+
+Syntax:- 
+
+Print(arguments, sep=' ',end='\n') 
+
+    To print in formated way 
+
+    a=10   
+
+print(f'value of a is{a}') 
+
+{}--->place holder 
+
+f--->formatted 

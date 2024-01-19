@@ -1,0 +1,105 @@
+Loops: 
+
+Loops is set of instruction/block of code execute repeated/iterate till certain condition satisfy 
+
+Two types: 
+
+1.For loop:- 
+
+Used to repeat a specific block for known number of times. 
+
+2.while loop:- 
+
+Used to repeat a specific block for unknown number of times. 
+
+ 
+
+Syntax for Loop:- 
+
+1.to iterate any sequnce[string/list/tuple/dict/set] 
+
+ 
+
+for variable_name in sequence : 
+
+         print(variable_name-->current sequence) 
+
+ 
+
+Assignment on string: 
+
+1.if string contain digits reverse the word 
+
+Eg: v23be1 vector india 23hn 
+
+1eb32V vector india nh32 
+
+    Count the digits, alphabets and special char in the string 
+
+ 
+
+Syntax: 
+
+To iterate the number: 
+
+range()---> built function 
+
+Start with 0 end –1 
+
+ 
+
+for var in range(int): 
+
+   Print(var) 
+
+ 
+
+While loop:- 
+
+Syntxa: 
+
+Intialize 
+
+Var=0 
+
+While var <10 : 
+
+    Print(var) 
+
+ 
+
+Conditional: 
+
+continue—skip the current iteration 
+
+break--->exit the current loop 
+
+pass-->will not do anything(empty block) 
+
+ 
+
+else clause(block) with for/while loop: 
+
+If there is break free in loop then else block will execute 
+
+    if break else block will not execute 
+
+ 
+
+* 
+
+    *   * 
+
+    *    *     * 
+
+    *     *     *    * 
+
+for var in range(1,5+1): 
+
+   Print('*'*var) 
+
+ 
+
+ 
+
+  

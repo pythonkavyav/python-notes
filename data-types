@@ -1,0 +1,61 @@
+What is data type: 
+
+Classification / categorization of a data item. 
+
+    Depends on data type interpreter will decide what type of value ,what operation can be performed 
+
+Types: 
+
+1.Numbers:Numeric data type in python are 3 types 
+
+         ---> int 
+
+                     Without decimal point 
+
+                       Eg:- a=10 
+
+                               b=-3 
+
+         --->float 
+
+                     With decimal point
+
+Eg: f=34.5 
+
+F1=-23.4 
+
+                   
+
+         --->complex: 
+
+                 Real and imaginary part 
+
+                   Eg:- c=2+5j 
+
+                            Nu=2j 
+
+2.String: 
+
+Collection of one or more character put in a ' '/ " " / ' ' '   ' ' ' 
+
+*we don't have character data type 
+
+    String length is one then it is one character 
+
+    There is no null 
+
+    String are immutable 
+
+    String can access by using index method. 
+
+    Two ways---> positive[0] negative[-1] 
+
+Immutable: 
+
+We cannot modify the internal state of an object 
+
+ 
+
+ 
+
+ 

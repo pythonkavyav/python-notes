@@ -1,0 +1,35 @@
+L=[1,'hello',3] 
+
+    append:- 
+
+ Add one element at the end 
+
+  Syntax: 
+
+L.append(400) 
+
+2.pop:- 
+
+    Remove one element/item from the last 
+
+    L.pop() 
+
+3.extend:- 
+
+Add more than one element at the end 
+
+L.extend((items)) 
+
+4.insert:- 
+
+  Insert item/element at given position 
+
+L.insert(index,ele) 
+
+5.count:- 
+
+Count the repeated item in the list return the int(count) 
+
+L.count(item) 
+
+Note:-sort is only for simillar collection of data type 

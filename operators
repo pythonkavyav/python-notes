@@ -1,0 +1,146 @@
+1.What is  operator? 
+
+Operators are used to perform any operation b/w values/variable /operands 
+
+Types of operators in python: 
+
+1.Arithematic operator: 
+
+Eg: 
+
++,-,%,*,/,//,** 
+
+/ --->Normal division 
+
+Result of quotient in the form of float value always. 
+
+//----> floor division 
+
+Result of quotient in the form of integer value. 
+
+**----> exponential 
+
+a**b---->a to power of b 
+
+ 
+
+Note: 
+
+    ** is highest priority  right to left 
+
+() 
+	
+
+L--->r 
+	
+** 
+	
+
+R--->L 
+	 
+
+/,*,%,// 
+	
+
+L--->r 
+	
+
+ 
+	
+
+ 
+
++,- 
+	
+
+L---->r 
+	
+
+ 
+	
+
+ 
+
+a%b---> remainder 
+
+-a%b--->result add b to -a till get 0/pos number 
+
+ 
+
+a%-b--->sub –b with a till get 0 / neg number 
+
+Eg: 
+
+-20%4 
+
+-20%3 
+
+ 
+
+ 
+
+2.Membership operator: 
+
+ 
+
+Membership operators are used to check value/variable is present in the sequence 
+
+ 
+
+    in---->return True if the value or variable is present 
+
+           Else False 
+
+    not in-----> return true if value is  not present 
+
+                   Else false 
+
+Note:- lowest precedence 
+
+3.Identity operator: 
+
+1.is ---> return true if  both object/variable having same memory location else return false 
+
+    is not --->return true if  both object/variable having different memory location else return false 
+
+    Assignment operator: 
+
+=,+=,-=,/=,//=,%=,*=,**= 
+
+    Comparision: 
+
+<,>,<=,>=,== 
+
+    Logical operator 
+
+and 
+	
+
+2<20 and 3<2 
+	
+
+ True/False 
+
+or 
+	
+
+2<20 and 3<2 
+	
+
+True/False 
+
+not 
+	
+
+true 
+	
+
+false 
+
+ 
+
+7.Biteise operator: 
+
+ &,|,^,<<,>>,~ 
+
+ 

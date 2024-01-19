@@ -1,0 +1,47 @@
+Input and Output: 
+
+ 
+
+Input: 
+
+    Input is a built-in function 
+
+    Syntax: input(prompt) 
+
+     Prompt ---->what message to be display on screen 
+
+    Input function read the content from user in the form of string 
+
+    The return type is string 
+
+    To scan int /float/list/tuple---->explicit type cast 
+
+ 
+
+Comments:- 
+
+Single line comments # 
+
+Multi line comment ---->string quotes '''     '''//" " "     """//'  ' 
+
+Scan multiple input from the user 
+
+There is no proper syntax like in c scanf("%d%d%c",&a,&b,c); 
+
+ 
+
+By using two ways 
+
+1.split() method 
+
+ "hello vector india" 
+
+spilt()---> method/function for string 
+
+It will spilt the words by default space is provided 
+
+Note:-after split it will store collection of words in  list data type  
+
+ 
+
+ 

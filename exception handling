@@ -1,0 +1,149 @@
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Exception:-Error 
+
+--> an unwanted or unexcepted event that disturb normal flow of execution 
+
+1.syntax error 
+
+2.logical error 
+
+Types of error:- 
+
+1.ValueError 
+
+2.TypeError 
+
+3.IndexError 
+
+4.ImportError 
+
+5.IndentationError 
+
+             BaseException 
+
+ 
+
+            Exception 
+
+ValueError         TypeError       IndexError  etc 
+
+ 
+
+Class MyError(Exception): 
+
+     Pass 
+
+try and except---> are keyword 
+
+Syntax:- 
+
+ 
+
+try: 
+
+      Block of code which cause error 
+
+except:  
+
+    If any error in try block except block will execute 
+
+else: 
+
+    If no error  in try block else block will execute 
+
+    else is optional 
+
+Print ------ 
+
+------ 
+
+------- 
+
+Handling exception with error name 
+
+try: 
+
+    Error code 
+
+exception ZeroDivisionError: 
+
+      Block will handle only zero division error 
+
+exception ValueError: 
+
+      Only value error 
+
+ 
+
+Try,except,else with finally block 
+
+finally:-keyword 
+
+finally block will execute always. 
+
+ 
+
+Raise:- 
+
+raise is keyword  raise our own error 
+
+ 
+
+ 
+
+lambda function: 
+
+--> anonymous function[no name] 
+
+---> one line of code  
+
+---> n number of argument but only one expression is allowed. 
+
+Eg:- 
+
+Res=lambda arg : expression 
+
+Print(Res(arg)) 
+
+ 
+
+def function(): 
+
+    Body 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 

@@ -1,0 +1,155 @@
+Files:- 
+
+Files are used to store data it can be used to perform read, write, delete, append etc. 
+
+In python file are written in text/binary format/csv file 
+
+--> file are ending with (\n) or EOL 
+
+-->complexity is less 
+
+File operation:- 
+
+1.open 
+
+2.write 
+
+3.read 
+
+4.tell 
+
+5.seek 
+
+6.close 
+
+Advantage:- 
+
+1.versatality 
+
+2.complexity is less 
+
+3.portability 
+
+Disadvantage:- 
+
+1.error prone 
+
+2.security level 
+
+3.time complexity 
+
+ 
+
+Open:- 
+
+To read / write we have to open the file 
+
+---> open() is a built in function 
+
+We have pass path,mode 
+
+os module to get path 
+
+Syntax:- 
+
+File_obj=open('data.txt','w') 
+
+Mode:- 
+
+w---> write the data to file if file already present it will      override the data 
+
+r---> read mode 
+
+w+---> write and read 
+
+r+---> read and write 
+
+a---> append mode (override will not happen) 
+
+a+--->append and read 
+
+ 
+
+Write:- 
+
+write is function to write data to file 
+
+Syntax:- 
+
+File_obj.write(content) 
+
+---->write a single string 
+
+----> \n will not provide 
+
+  ----> return None 
+
+writeline()---> write list of string 
+
+    ----> return None 
+
+Close:- 
+
+ 
+
+In python automatically file object close 
+
+Syntax:- 
+
+file_obj.close() 
+
+read():- 
+
+Read the content from the file 
+
+Syntax: 
+
+File_obj.read(offset) 
+
+Offset--> bytes of char to read 
+
+readlines()--> read multiple line from file 
+
+tell()-->return file object position 
+
+seek()--> to change file object position 
+
+Syntax:- 
+
+f.tell() 
+
+f.seek(offset,from what) 
+
+From what--> which position 
+
+0 ----> beginning 
+
+1---> current file position 
+
+2---> end of the file 
+
+Offset---> bytes to move forward 
+
+Note:- 
+
+Current /end in seek used only for binary files 
+
+wb 
+
+rb 
+
+ 
+
+F1=open('data.txt','wb') 
+
+F1.write(b'hello') 
+
+F1.close() 
+
+ 
+
+ 
+
+ 
+
+  

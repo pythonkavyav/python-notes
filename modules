@@ -1,0 +1,76 @@
+Python file contain function definition and statements 
+
+Is called module 
+
+ import keyword we can call the module 
+
+Syntax: 
+
+import math 
+
+ 
+
+1.built in modules 
+
+2.user defined module 
+
+>>>help('modules') 
+
+pip install module_name   window 
+
+Sudo apt pip install module name 
+
+pip-->pip install packager//prefers installer program 
+
+ 
+ Eg: 
+
+import filename 
+
+ 
+
+filename.function() 
+
+ 
+
+>>> 
+
+import math 
+
+math.factorial(5) 
+
+Math.pi 
+
+math.pow(3,4) 
+
+import os 
+
+Os.system('ls') 
+
+Os.system('tput setaf 2') 
+
+ 
+
+Import sys 
+
+Sys.path 
+
+ 
+
+Tkinter 
+
+Map webbrowser 
+
+ 
+
+import module  
+
+from module import * 
+
+---> include all the function in to the directory 
+
+--->function are the first class object. 
+
+ 
+
+ 

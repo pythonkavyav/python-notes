@@ -1,0 +1,183 @@
+Class:- 
+
+Class is a blue print/template/combination of attribute and methods 
+
+Object:- 
+
+Instance of class/copy of a class members 
+
+Attribute:-variable inside the class 
+
+Methods--> function inside class 
+
+ 
+
+Syntax:- 
+
+Class keyword class  
+
+class student: 
+
+      a=10#class variable by default it is in public 
+
+      def fun(self): 
+
+          Extra argument required  current object 
+
+object=student() 
+
+object.a 
+
+object.fun() 
+
+ 
+
+ 
+
+Constructor:- 
+
+When object is created cons will call automatically 
+
+--> constructor also method with name __init__ 
+
+OOP's concept:- 
+
+1.data encapsulation 
+
+2.inheritance 
+
+3.polymorphisam 
+
+4.data abstraction 
+
+ 
+
+    Data encapsulation:- 
+
+Wrapping of a data members(attribute/methods) 
+
+1.private 
+
+   Attribute start with __then private 
+
+   Eg: __name='xyz' 
+
+          __age=30 
+
+          __bal=3.4 
+
+          def  __function(sel):  
+
+2.protected:- 
+
+    Attribute start with _  
+
+      _n1=10 
+
+3.public: 
+
+    Bal=34 
+
+    Inheritance:- 
+
+ 
+
+Inheritance is capability of one class to inherit/derive to another class 
+
+Types:- 
+
+1.single level 
+
+2.multilevel 
+
+3.multiple 
+
+4.hybrid 
+
+5.hierarchial 
+
+ 
+
+Syntax: 
+
+Class parent: 
+
+    Body 
+
+Class child(parent): 
+
+        Body 
+
+ 
+
+Polymorphism:-many forma/same function for different Data types 
+
+ 
+
+ 
+
+Operator overloading:- 
+
+__add__  system defined 
+
+2+3 
+
+ 
+
+ 
+
+Data abstraction:- 
+
+ 
+
+data abstraction is hiding the irrelevant information 
+
+From the user. 
+
+Abstract class:- 
+
+Collection of abstract method. 
+
+Abstract method implemented with empty block. 
+
+Syntax: 
+
+from abc import ABC,abstractmethod 
+
+class car(ABC): 
+
+     @abstractmethod 
+
+     def milage(self): 
+
+          Pass 
+
+     def fun(self): 
+
+         body 
+
+class child(car): 
+
+    Def speed(s): 
+
+          Print('speed') 
+
+@  decorator 
+
+@Classmethod 
+
+@Static method 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 

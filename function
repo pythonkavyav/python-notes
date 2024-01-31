@@ -1,0 +1,97 @@
+Function is a block of code used to perform some specific task 
+
+Types:- 
+
+1.Built in function:- standard function  
+
+Eg:- 
+
+Print(),input(),type(),help(),dir() etc 
+
+  builtins module 
+
+    User defined function:- 
+
+     We can create our own function 
+
+Advantage: 
+
+1.code readability 
+
+2.code reusability 
+
+ 
+
+syntax:- 
+
+By using def keyword function in python 
+
+def  function_name(arguments) : 
+
+       Block of code 
+
+function_name(values) 
+
+ 
+
+Types of argument: 
+
+    default argument:- 
+
+    Keyword argument:- 
+
+    Positional argument 
+
+    arbitrary argument:- 
+
+ 
+
+1.default argument:- 
+
+default argument is a parameter that assume default value if value is not provided by caller. 
+
+ 
+
+def fun(name,age): 
+
+      Print(name=10 
+
+                Age='xyz') 
+
+fun(10,'xyz') 
+
+Keyword argument:- 
+
+Are passing value with respect to name. if the position change also value will not change. 
+
+Fun definition will receive like dict. 
+
+ 
+
+Arbitrary argument: 
+
+Variable length argument 
+
+--->keyword(name value—dict) 
+
+**variable_name 
+
+---->non keyword (numbers,string,list,tuple) 
+
+*variablename 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
